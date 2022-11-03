@@ -221,6 +221,30 @@ div .container h1{
 }
 
 /* jatuh */
+
+/* menambahkan animasi berputar  */
+@keyframes putar{
+    0%{
+
+        width: 32%;
+        height: 100%;
+        transform: rotateX(90deg);
+
+
+    }
+
+    100%{
+        width: 32%;
+        height: 100%;
+        transform: rotateX(10deg);
+        justify-content: space-between;
+
+
+
+
+    }
+}
+
 /* .text{
     animation: jatuh 2s ease forwards;
 } */
